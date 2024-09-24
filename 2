@@ -1,0 +1,12 @@
+def verificar_letra_a(frase):
+    frase = frase.lower()
+    contador_a = frase.count('a')
+
+    if contador_a > 0:
+        print(f"A letra 'a' seja (maiúscula ou minúscula) aparece {contador_a} vezes na frase.")
+    else:
+        print("A letra 'a' seja (maiúscula ou minúscula) não aparece na frase.")
+
+
+frase_digitada = input("Digite uma frase: ")
+verificar_letra_a(frase_digitada)
